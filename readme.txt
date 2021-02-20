@@ -1,3 +1,9 @@
+First of all, take into account that the site you have to clone
+is not the main website of PayPal. The URL to the site you can
+take some ideas from is the following one:
+
+    https://www.paypal.com/es/webapps/mpp/account-sign-up/
+
 In order to use the same font as PayPal, you will have to add
 the following lines on the top of your CSS file:
 
