@@ -10,20 +10,26 @@
 
 * {
     font-family: pp-sans-big-light, Helvetica Neue, Arial, sans-serif;
-    background-color: #444;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+    padding: 1em 25em;
 }
 
 header div a {
     text-decoration: none;
+    font-size: small;
     font-weight: bold;
     border: 2px solid white;
     border-radius: 30px;
-    padding: 12px 24px;
+    padding: 10px 20px;
 }
 
 .paypal-logo {
@@ -38,4 +44,34 @@ header div a {
 #create-account-button {
     background-color: white;
     color: black;
+}
+
+#section-1 {
+    background-image: url("./images/top-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 8em  18em;
+}
+
+.articles h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.articles p {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.articles article {
+    width: 28%;
 }
