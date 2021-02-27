@@ -50,6 +50,7 @@ header div a {
     background-image: url("./images/top-background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    padding-bottom: 5em;
 }
 
 .articles {
@@ -58,10 +59,10 @@ header div a {
     text-align: center;
     align-items: center;
     color: white;
-    padding: 8em  18em;
+    padding: 8em 18em;
 }
 
-.articles h1 {
+h1 {
     font-size: 2.5em;
     font-weight: 500;
 }
@@ -70,8 +71,59 @@ header div a {
     font-size: 1.2em;
     font-weight: bold;
     line-height: 30px;
+    margin-bottom: 1.5em;
 }
 
 .articles article {
     width: 28%;
+}
+
+.articles article a {
+    text-decoration: none;
+    color: rgb(29, 111, 219);
+    font-family: pp-sans-small-regular, Helvetica Neue, Arial, sans-serif;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    padding: 15px 70px;
+    border-radius: 25px;
+}
+
+.section-2,
+.section-2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2  {
+    flex-direction: column;
+    padding: 5em 25em;
+}
+
+.section-2 div article {
+    text-align: center;
+    margin: 0 2em;
+    padding: 3em 0;
+}
+
+.section-2 div article:first-child {
+    margin-left: 0;
+}
+
+.section-2 div article:last-child {
+    margin-right: 0;
+}
+
+.section-2 p {
+    font-family: pp-sans-small-regular, Helvetica Neue, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(63, 62, 62);
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(63, 62, 62);
+    margin: 0.5em 0;
 }
