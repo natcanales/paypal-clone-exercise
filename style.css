@@ -46,7 +46,7 @@ header div a {
     color: black;
 }
 
-#section-1 {
+.section-1 {
     background-image: url("./images/top-background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -95,7 +95,10 @@ h1 {
     align-items: center;
 }
 
-.section-2  {
+.section-2,
+.section-3,
+.section-4,
+.section-5 {
     flex-direction: column;
     padding: 5em 25em;
 }
@@ -126,4 +129,45 @@ h2 {
     font-size: 25px;
     color: rgb(63, 62, 62);
     margin: 0.5em 0;
+}
+
+.section-3,
+.section-5 {
+    display: flex;
+    background-color: #f7f9fa;
+    align-items: center;
+}
+
+.section-3 h1 {
+    font-size: 35px;
+}
+
+.square {
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(230, 230, 230);
+  }
+
+.steps-images,
+.steps-texts {
+    display: flex;
+}
+
+.steps-images {
+    justify-content: space-between;
+}
+
+.steps-images:first-child {
+    padding-left: 5em;
+}
+
+.steps-images img:last-child {
+    padding-right: 5em;
+}
+
+
+.section-4 {
+    background-color: #003087;
+    color: white;
 }
